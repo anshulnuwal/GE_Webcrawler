@@ -1,0 +1,2 @@
+Invalid Input Request -> Page List empty
+Error Message : Validation failed for argument [0] in public com.ge.webcrawler.model.ResponseDTO com.ge.webcrawler.controller.WebCrawlerController.crawl(com.ge.webcrawler.model.PagesDTO): [Field error in object 'pagesDTO' on field 'pages': rejected value [[]]; codes [NotEmpty.pagesDTO.pages,NotEmpty.pages,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [pagesDTO.pages,pages]; arguments []; default message [pages]]; default message [must not be empty]] 

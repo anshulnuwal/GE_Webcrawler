@@ -1,0 +1,10 @@
+1) Import maven project to ECLIPSE (or any other IDE). 
+   Once imported, our application is ready to Start.
+   
+2) To start application : 
+	a) Right Click on webcrawler project
+	b) Select 'Run As' and then select 'Spring Boot App'.
+
+3) Application will start to run on port 8080.
+4) URI for webcrawler Webservice : 'http://localhost:8080/webcrawler'
+5) Provide JSON input in the givrn format, and application will return the required output.

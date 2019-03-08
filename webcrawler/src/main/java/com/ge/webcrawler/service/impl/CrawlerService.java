@@ -26,6 +26,11 @@ public class CrawlerService implements IWebcrawlerService {
 		response.setSuccess(new ArrayList<String>());
 		response.setSkipped(new ArrayList<String>());
 		response.setError(new ArrayList<String>());
+		
+		if(helper == null){
+			helper = new WebcrawlerServiceHelper();
+		}
+		
 		try {
 			connectingPages = helper.getConnectingPagesMap(pages);
 			String startPage = pages.getPages().get(0).getAddress();

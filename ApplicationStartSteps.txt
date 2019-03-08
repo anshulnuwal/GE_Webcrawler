@@ -1,3 +1,6 @@
+METHOD 1 
+(By Using Rest Web Service) :
+
 Download : 'webcrawler' folder from path : 'https://github.com/anshulnuwal/GE_Webcrawler'.
 
 1) Import maven project to ECLIPSE (or any other IDE). 
@@ -10,3 +13,29 @@ Download : 'webcrawler' folder from path : 'https://github.com/anshulnuwal/GE_We
 3) Application will start to run on port 8080.
 4) URI for webcrawler Webservice : 'http://localhost:8080/webcrawler'
 5) Provide JSON input in the givrn format, and application will return the required output.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+METHOD 2 
+(By using Eclipse main method. Business / Logic Files will be same as Method 1):
+
+Execute 'WebcrawlerApplicationWithMain.java' file present in package : 'com.ge.webcrawler2.main'
+	Make sure, we have input file with name 'internet.json' is present on source Path of Project 'webcrawler'.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+METHOD 3
+(Using CLI):
+
+1) Code for CLI part is present in folder : 'webcrawler2'. 
+	Path : 'https://github.com/anshulnuwal/GE_Webcrawler'
+	
+2) This code is packaged in executable jar 'webcrawler2.jar' present on path 'https://github.com/anshulnuwal/GE_Webcrawler'.
+
+3) Download 'webcrawler2.jar'.
+4) Place the input file with name 'internet.json' at the same path on local, where 'webcrawler2.jar' is placed.
+5) Open cmd, go to the path of webcrawler2.jar.
+6) execute command : "java -jar webcrawler2.jar"  to run the application.
+
+NOTE : Please note that name of input file is : "internet.json", not "internet_1.json" or "internet_2.json".
+		Make sure to remove '_1' or '_2' from input file.
